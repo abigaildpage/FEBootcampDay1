@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #323232;
+}
+
+/***
+Hero Section
+***/
+
+section.hero {
+	padding:4rem;
+	background:url('banner.jpg');
+	background-size: cover;
+}
+
+section.hero h1
+	{font-weight:900;
+	font-size:2.5rem;
+	text-transform: uppercase;
+	float: left;
+	color: white;
+	margin: 0;
+	padding-top: 2rem;
+	}
+
+section.hero nav.site-navigation ul li{
+	display: inline;
+	margin-left: 1rem;
+	float: right;
+	font-size: .9rem;
+	text-transform:uppercase;
+	font-weight: 300;
+	padding-top:2rem;
+}
+
+section.hero nav.site-navigation ul li a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: .15rem;
+}
+
+section.hero nav.site-navigation ul li.active a {
+	background: #1757AE;
+	border-radius: 2rem;
+	padding: 1rem;
+}
+
+section.hero div.hero-intro {
+	padding: 6rem;
+}
+
+section.hero h2 {
+	clear:both;
+	font-size: 4rem;
+	text-align:center;
+	font-weight:500;
+	margin: 0;
+	color: white;
+	padding-top:6rem;
+}
+
+section.hero p {
+	text-align:center;
+	margin: 0;
+	color: white;
+	opacity: 0.8;
+	font-weight:300;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin-bottom:4rem;
+}
+
+section.hero div.hero-intro div.button {
+	margin-top: 2rem;
+	text-align:center;
+}
+
+section.hero div.hero-intro div.button a {
+	background-color: #1757AE;
+	padding: 2rem 4rem;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 4rem;
+	letter-spacing: .25rem;
+}
+
+/***
+Content White
+***/
+
+section.content-white {
+	clear:both;
+	padding: 2rem 4rem;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+section.content-white div.blog {
+	float:left;
+	max-width:700px;
+	margin: 0;
+	padding: 0;
+}
+
+section.content-white div.blog h2 {
+	font-size: 3rem;
+	font-weight: 300;
+	padding: 0;
+	margin: 3rem 0 0 0;
+}
+
+section.content-white div.blog h3 {
+	font-size:1rem;
+	font-weight:400;
+	letter-spacing:.2rem;
+	padding: 0;
+	margin: 0 0 3rem 0;
+	color: #6f6f6f;
+}
+
+section.content-white div.blog p {
+	font-size: .9rem;
+	font-weight: 300;
+	line-height:1.5rem;
+	color:#6f6f6f;
+}
+
+section.content-white div.sidebar  {
+	float:right;
+	max-width: 375px;
+	padding: 0;
+	margin: 4rem 0 0 0;
+}
+
+section.content-white div.sidebar h3 {
+	text-transform: uppercase;
+	font-size:1rem;
+	font-weight:600;
+	letter-spacing:.2rem;
+	padding: 0;
+	margin: 0;
+}
+
+section.content-white div.sidebar p {
+	font-size: .9rem;
+	font-weight: 300;
+	line-height:1.5rem;
+	color: #6f6f6f;
+}
+
+div.feature1, div.feature2, div.feature3{
+	padding:0 0 3rem 0;
+	margin: 0 0 4rem 0;
+	border-bottom: 1px solid #d1cfce;
+}
+
+
+footer {
+	clear:both;
+	margin: 0 auto;
+	background-color: #2b2b2b;
+}
+
+footer p {
+	margin: 0;
+	padding: 6rem 0 10rem 0;
+	color: #666666;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight:500;
+	font-size: .75rem;
+	letter-spacing: .15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
